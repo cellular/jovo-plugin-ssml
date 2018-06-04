@@ -1,6 +1,6 @@
 {
   "name": "jovo-plugin-ssml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jovo plugin to use an alternative SpeechBuilder",
   "keywords": [
     "jovo",
