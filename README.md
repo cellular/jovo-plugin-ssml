@@ -1,12 +1,14 @@
 # Advanced SSML features for the Jovo Framework
 
+[![Build Status](https://travis-ci.org/cellular/jovo-plugin-ssml.svg?branch=master)](https://travis-ci.org/cellular/jovo-plugin-ssml)
+
 [Jovo](https://www.jovo.tech/) [Plugin](https://www.jovo.tech/docs/advanced#plugins) to [supercharge](http://github.com/cellular/speech-builder) the SpeechBuilder:
 
 * Lexicon to automatically insert `<phoneme>` or `<sub>` tags.
 * Different base URI per platform to load audio files in different formats.
 * Proper XML escaping.
 
-__NOTE__: The API is not backwards compatible (though pretty similar) to Jovo's built-in SpeechBuilder. Please refer to the [API docs](http://github.com/cellular/speech-builder#api) for details.
+⚠️ __NOTE__: The API is not backwards compatible (though very similar) to Jovo's built-in SpeechBuilder. Please refer to the [API docs](http://github.com/cellular/speech-builder#api) for details.
 
 ## Usage
 
