@@ -18,4 +18,6 @@ class SsmlPlugin extends Plugin {
   }
 }
 
+SsmlPlugin.ssml = ssml;
+
 module.exports = SsmlPlugin;
