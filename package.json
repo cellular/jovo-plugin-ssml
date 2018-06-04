@@ -23,6 +23,6 @@
     "jovo-framework": "^1.2.0"
   },
   "dependencies": {
-    "speech-builder": "^1.3.0"
+    "speech-builder": "^2.0.0"
   }
 }
