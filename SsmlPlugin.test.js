@@ -22,7 +22,7 @@ describe('SsmlPlugin', () => {
       })
     );
 
-    const request = requestBuilder.intent('HelloIntent', { beep: 'boop' });
+    const request = requestBuilder.intent('HelloIntent');
     const response = {
       json(data) {
         expect(data.speech).toEqual(
@@ -33,7 +33,7 @@ describe('SsmlPlugin', () => {
     };
 
     app.handleRequest(request.buildHttpRequest(), response, {
-      HelloIntent: function(beep) {
+      HelloIntent: function() {
         this.ask(this.speech.audio('hello.mp3'));
       },
     });
